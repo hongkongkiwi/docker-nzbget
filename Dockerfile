@@ -16,8 +16,12 @@ RUN \
 	curl \
 	p7zip \
 	python2 \
+  py-pip \
 	unrar \
 	wget && \
+
+# install subliminal
+  pip install subliminal && \
 
 # install nzbget
  mkdir -p \
